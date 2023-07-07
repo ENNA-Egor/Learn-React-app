@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Edit <code className="code">src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -20,8 +20,8 @@ function App() {
         </a>
       </header>
     </div>
-    <div>
-      <h3> Вот сейчас и попробуем что тосделать</h3>
+    <div className="body">
+      <h3> Вот сейчас и попробуем что то сделать</h3>
     </div>
     </>
   );
